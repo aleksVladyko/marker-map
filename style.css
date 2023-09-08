@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+svg {
+    user-select: none;
+}
+
+svg text {
+    font-family: sans-serif;
+}
+
+.tool {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.34s;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.circle-blue {
+    opacity: 0.7;
+    fill: #3877ee;
+}
+
+.circle-blue~.tool.active {
+    opacity: 0.7;
+    visibility: visible;
+    stroke: rgb(131, 131, 140);
+    fill: #3877ee;
+    /* Изменить цвет заливки активного .tool */
+}
+
+.circle-green {
+    opacity: 0.7;
+    fill: #6abf4b;
+}
+
+.circle-green~.tool.active {
+    opacity: 0.7;
+    visibility: visible;
+    stroke: rgb(131, 131, 140);
+    fill: #6abf4b;
+    /* Изменить цвет заливки активного .tool */
+}
+
+.stroke-white {
+    stroke: white;
+    stroke-width: 2;
+}
+
+.text {
+    font-size: 2rem;
+    fill: whitesmoke;
+}
+
+.size-rect {
+    width: 150px;
+    height: 40px;
+}
