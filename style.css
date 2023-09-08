@@ -7,10 +7,6 @@ svg {
     user-select: none;
 }
 
-svg text {
-    font-family: sans-serif;
-}
-
 .tool {
     opacity: 0;
     visibility: hidden;
@@ -48,13 +44,16 @@ svg text {
 }
 
 .stroke-white {
-    stroke: white;
+    stroke: whitesmoke;
     stroke-width: 2;
 }
 
 .text {
+    font-family: Tahoma, sans-serif;
     font-size: 2rem;
     fill: whitesmoke;
+    text-anchor: start;
+   
 }
 
 .size-rect {
